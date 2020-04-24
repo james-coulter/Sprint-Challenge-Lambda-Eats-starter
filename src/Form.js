@@ -167,7 +167,7 @@ const Form = () => {
                 />
             </label>
             <pre>{JSON.stringify(post, null, 2)}</pre>
-            <button className="submit" data-cy="submit" disabled={buttonDisabled}>Send Order</button>
+            <button className="submit" data-cy="submit" disabled={buttonDisabled}>Add to Order</button>
         </form>
         </div>
     )
